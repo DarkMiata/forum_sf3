@@ -1,0 +1,4 @@
+dm_forum:
+    path:     /
+    defaults:
+        _controller:    DMForumBundle:Default:index

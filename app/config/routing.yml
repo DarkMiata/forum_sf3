@@ -1,0 +1,11 @@
+core:
+    resource: "@CoreBundle/Resources/config/routing.yml"
+    prefix:   /
+
+dm_forum:
+    resource: "@DMForumBundle/Resources/config/routing.yml"
+    prefix:   /forum
+
+app:
+    resource: '@AppBundle/Controller/'
+    type: annotation
