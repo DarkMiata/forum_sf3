@@ -1,0 +1,13 @@
+<html>
+  <head>
+    <title>view</title>
+  </head>
+<body>
+  <h2>Page DM_forum - view</h2>
+  <ul>
+    {% for mess in post %}
+      <li>Auteur: {{ mess.author }}</li>
+      <li>Message: {{ mess.message }}</li>
+    {% endfor %}
+  </ul>
+</body>
